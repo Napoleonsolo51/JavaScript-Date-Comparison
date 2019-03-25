@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JS Date Comparison</title>
+    <h1>Demo: JavaScript Date comparison</h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <script>
+        var date1 = new Date('4-1-2015');
+        var date2 = new Date('4-2-2015');
+
+        if (date1 > date2)
+            document.getElementById("p1").innerHTML = date1.toDateString() + ' is greater than ' + date2.toDateString();
+        else (date1 < date2)
+        document.getElementById("p2").innerHTML = date1.toDateString() + ' is less than ' + date2.toDateString();
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
